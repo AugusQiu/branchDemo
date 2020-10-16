@@ -27,4 +27,5 @@ git log
 git checkout master //切回主支
 git merge dev       //合并分支
 git status          //查看状态
+git push
 ````
