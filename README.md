@@ -4,7 +4,7 @@
 ````
 git branch  //查看当前分支
 git branch -a   //查看所有分支(包括本地分支、远程分支)
-git checkout -b dev origin/dev  //拉取远程分支到本地，本地分支取名dev
+git checkout -b dev remotes/origin/dev  //拉取远程分支到本地，本地分支取名dev
 git branch -vv //查看本地和远程分支的关联性
 
 git checkout -b test //直接新建本地分支
